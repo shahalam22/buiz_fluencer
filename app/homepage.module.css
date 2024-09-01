@@ -1,0 +1,46 @@
+.section4 {
+    /* background-image: url('/sec4.jpg'); */
+    /* background-size: cover; */
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+    display: block;
+    /* opacity: 0.5; */
+}
+
+.section4::before {
+    background-image: url('/sec4.jpg');
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.6;
+	content: "";
+}
+
+/* .section4{
+    width:700px;
+    height:400px;
+    position:relative;
+    display:block;
+    padding:1rem;
+    background-image: url('/sec4.jpg');
+  }
+  
+  .section4::before{
+    content:"";
+    background-image: url('/sec4.jpg');
+    opacity:0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+  } */
+
+/* {<div style={{backgroundImage:"url('/sec4.jpg')"}} className="bg-cover py-32">} */
