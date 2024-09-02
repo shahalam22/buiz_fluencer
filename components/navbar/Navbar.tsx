@@ -20,11 +20,11 @@ const Navbar = () => {
             </a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-lg">
-                <li className="px-6 hover:text-[#ccf281]"><a>Home</a></li>
-                <li className="px-6 hover:text-[#ccf281]"><a>Services</a></li>
-                <li className="px-6 hover:text-[#ccf281]"><a>About</a></li>
-                <li className="px-6 hover:text-[#ccf281]"><a>Pricing</a></li>
+            <ul className="menu menu-horizontal px-1 text-[15px]">
+                <li className="px-6 hover:text-[#ccf281]"><a>HOME</a></li>
+                <li className="px-6 hover:text-[#ccf281]"><a>SERVICES</a></li>
+                <li className="px-6 hover:text-[#ccf281]"><a>ABOUT</a></li>
+                <li className="px-6 hover:text-[#ccf281]"><a>CONTACT</a></li>
             </ul>
           </div>
           <div className="navbar-end">
@@ -61,11 +61,11 @@ const Navbar = () => {
           {
             openMenu && (
                 <ul
-                  className="flex flex-col justify-center items-center text-lg bg-black rounded-box z-[1] my-5 w-full">
-                  <li className="hover:text-[#ccf281] m-2"><a>Home</a></li>
-                  <li className="hover:text-[#ccf281] m-2"><a>Services</a></li>
-                  <li className="hover:text-[#ccf281] m-2"><a>About</a></li>
-                  <li className="hover:text-[#ccf281] m-2"><a>Pricing</a></li>
+                  className="flex flex-col justify-center items-center text-[15px] bg-black rounded-box z-[1] my-5 w-full">
+                  <li className="hover:text-[#ccf281] m-2"><a>HOME</a></li>
+                  <li className="hover:text-[#ccf281] m-2"><a>SERVICES</a></li>
+                  <li className="hover:text-[#ccf281] m-2"><a>ABOUT</a></li>
+                  <li className="hover:text-[#ccf281] m-2"><a>CONTACT</a></li>
                 </ul>
             )
           }
